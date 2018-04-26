@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199F83DD2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199F83D32092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework */; };
+		199F83E22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F83E12092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift */; };
+		199F83E42092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h in Headers */ = {isa = PBXBuildFile; fileRef = 199F83D62092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		199F83FC209274D000A8C423 /* FWFAN2SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F83FB209274D000A8C423 /* FWFAN2SwiftFile.swift */; };
+		199F83FD209274D000A8C423 /* FWFAN2SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F83FB209274D000A8C423 /* FWFAN2SwiftFile.swift */; };
+		668AEB71D268550D2998C7AF /* Pods_SwiftStaticLibWithFAN1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7F36583A5C9EB9E61F3A92 /* Pods_SwiftStaticLibWithFAN1.framework */; };
+		9736CDE1AEE29EE691F51F66 /* Pods_SwiftStaticFrameworkWithFAN1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F31CAA9BED50A56C4BE93 /* Pods_SwiftStaticFrameworkWithFAN1.framework */; };
+		BD6988307EC42FBB606D0C33 /* Pods_SwiftStaticFrameworkWithFAN1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E68D75035D137905C8D388 /* Pods_SwiftStaticFrameworkWithFAN1Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199F83DE2092739B00A8C423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199F83CA2092739B00A8C423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199F83D22092739B00A8C423;
+			remoteInfo = SwiftStaticFrameworkWithFAN1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		199F83EF209273B700A8C423 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1240055F9A11158FBE1F3CA5 /* Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticFrameworkWithFAN1/Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig"; sourceTree = "<group>"; };
+		1452F10D5E0C37CFC5AA9A58 /* Pods-SwiftStaticLibWithFAN1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticLibWithFAN1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticLibWithFAN1/Pods-SwiftStaticLibWithFAN1.debug.xcconfig"; sourceTree = "<group>"; };
+		199F83D32092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStaticFrameworkWithFAN1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		199F83D62092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftStaticFrameworkWithFAN1.h; sourceTree = "<group>"; };
+		199F83D72092739B00A8C423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199F83DC2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStaticFrameworkWithFAN1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199F83E12092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStaticFrameworkWithFAN1Tests.swift; sourceTree = "<group>"; };
+		199F83E32092739B00A8C423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199F83F1209273B700A8C423 /* libSwiftStaticLibWithFAN1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftStaticLibWithFAN1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		199F83FA209274CF00A8C423 /* SwiftStaticLibWithFAN1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftStaticLibWithFAN1-Bridging-Header.h"; sourceTree = "<group>"; };
+		199F83FB209274D000A8C423 /* FWFAN2SwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWFAN2SwiftFile.swift; sourceTree = "<group>"; };
+		23E68D75035D137905C8D388 /* Pods_SwiftStaticFrameworkWithFAN1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStaticFrameworkWithFAN1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B341505D842B3B26EDCD0A0 /* Pods-SwiftStaticLibWithFAN1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticLibWithFAN1.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticLibWithFAN1/Pods-SwiftStaticLibWithFAN1.release.xcconfig"; sourceTree = "<group>"; };
+		C3D84D8E9F772A2CBEC82F6B /* Pods-SwiftStaticFrameworkWithFAN1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticFrameworkWithFAN1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticFrameworkWithFAN1Tests/Pods-SwiftStaticFrameworkWithFAN1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7F36583A5C9EB9E61F3A92 /* Pods_SwiftStaticLibWithFAN1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStaticLibWithFAN1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D113B8F49EA54638409C1D7B /* Pods-SwiftStaticFrameworkWithFAN1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticFrameworkWithFAN1.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticFrameworkWithFAN1/Pods-SwiftStaticFrameworkWithFAN1.release.xcconfig"; sourceTree = "<group>"; };
+		D3BCE371598D47D494C0F80B /* Pods-SwiftStaticFrameworkWithFAN1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticFrameworkWithFAN1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticFrameworkWithFAN1Tests/Pods-SwiftStaticFrameworkWithFAN1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E71F31CAA9BED50A56C4BE93 /* Pods_SwiftStaticFrameworkWithFAN1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStaticFrameworkWithFAN1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199F83CF2092739B00A8C423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9736CDE1AEE29EE691F51F66 /* Pods_SwiftStaticFrameworkWithFAN1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199F83D92092739B00A8C423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199F83DD2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework in Frameworks */,
+				BD6988307EC42FBB606D0C33 /* Pods_SwiftStaticFrameworkWithFAN1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199F83EE209273B700A8C423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668AEB71D268550D2998C7AF /* Pods_SwiftStaticLibWithFAN1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199F83C92092739B00A8C423 = {
+			isa = PBXGroup;
+			children = (
+				199F83D52092739B00A8C423 /* SwiftStaticFrameworkWithFAN1 */,
+				199F83E02092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests */,
+				199F83D42092739B00A8C423 /* Products */,
+				30D6FC26DAF7E82099DF9A79 /* Pods */,
+				B625E8334245E464D593F81A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		199F83D42092739B00A8C423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199F83D32092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework */,
+				199F83DC2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.xctest */,
+				199F83F1209273B700A8C423 /* libSwiftStaticLibWithFAN1.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199F83D52092739B00A8C423 /* SwiftStaticFrameworkWithFAN1 */ = {
+			isa = PBXGroup;
+			children = (
+				199F83D62092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h */,
+				199F83FB209274D000A8C423 /* FWFAN2SwiftFile.swift */,
+				199F83D72092739B00A8C423 /* Info.plist */,
+				199F83FA209274CF00A8C423 /* SwiftStaticLibWithFAN1-Bridging-Header.h */,
+			);
+			path = SwiftStaticFrameworkWithFAN1;
+			sourceTree = "<group>";
+		};
+		199F83E02092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				199F83E12092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift */,
+				199F83E32092739B00A8C423 /* Info.plist */,
+			);
+			path = SwiftStaticFrameworkWithFAN1Tests;
+			sourceTree = "<group>";
+		};
+		30D6FC26DAF7E82099DF9A79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1240055F9A11158FBE1F3CA5 /* Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig */,
+				D113B8F49EA54638409C1D7B /* Pods-SwiftStaticFrameworkWithFAN1.release.xcconfig */,
+				C3D84D8E9F772A2CBEC82F6B /* Pods-SwiftStaticFrameworkWithFAN1Tests.debug.xcconfig */,
+				D3BCE371598D47D494C0F80B /* Pods-SwiftStaticFrameworkWithFAN1Tests.release.xcconfig */,
+				1452F10D5E0C37CFC5AA9A58 /* Pods-SwiftStaticLibWithFAN1.debug.xcconfig */,
+				5B341505D842B3B26EDCD0A0 /* Pods-SwiftStaticLibWithFAN1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B625E8334245E464D593F81A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71F31CAA9BED50A56C4BE93 /* Pods_SwiftStaticFrameworkWithFAN1.framework */,
+				23E68D75035D137905C8D388 /* Pods_SwiftStaticFrameworkWithFAN1Tests.framework */,
+				CE7F36583A5C9EB9E61F3A92 /* Pods_SwiftStaticLibWithFAN1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		199F83D02092739B00A8C423 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199F83E42092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		199F83D22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199F83E72092739B00A8C423 /* Build configuration list for PBXNativeTarget "SwiftStaticFrameworkWithFAN1" */;
+			buildPhases = (
+				B481EBB912D4AB003C3A4B24 /* [CP] Check Pods Manifest.lock */,
+				199F83CE2092739B00A8C423 /* Sources */,
+				199F83CF2092739B00A8C423 /* Frameworks */,
+				199F83D02092739B00A8C423 /* Headers */,
+				199F83D12092739B00A8C423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftStaticFrameworkWithFAN1;
+			productName = SwiftStaticFrameworkWithFAN1;
+			productReference = 199F83D32092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		199F83DB2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199F83EA2092739B00A8C423 /* Build configuration list for PBXNativeTarget "SwiftStaticFrameworkWithFAN1Tests" */;
+			buildPhases = (
+				DF03DCE25D62A03DA7CEEE80 /* [CP] Check Pods Manifest.lock */,
+				199F83D82092739B00A8C423 /* Sources */,
+				199F83D92092739B00A8C423 /* Frameworks */,
+				199F83DA2092739B00A8C423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199F83DF2092739B00A8C423 /* PBXTargetDependency */,
+			);
+			name = SwiftStaticFrameworkWithFAN1Tests;
+			productName = SwiftStaticFrameworkWithFAN1Tests;
+			productReference = 199F83DC2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		199F83F0209273B700A8C423 /* SwiftStaticLibWithFAN1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199F83F7209273B700A8C423 /* Build configuration list for PBXNativeTarget "SwiftStaticLibWithFAN1" */;
+			buildPhases = (
+				10F11D40A0220C7367F3E054 /* [CP] Check Pods Manifest.lock */,
+				199F83ED209273B700A8C423 /* Sources */,
+				199F83EE209273B700A8C423 /* Frameworks */,
+				199F83EF209273B700A8C423 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftStaticLibWithFAN1;
+			productName = SwiftStaticLibWithFAN1;
+			productReference = 199F83F1209273B700A8C423 /* libSwiftStaticLibWithFAN1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199F83CA2092739B00A8C423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = BB;
+				TargetAttributes = {
+					199F83D22092739B00A8C423 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					199F83DB2092739B00A8C423 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					199F83F0209273B700A8C423 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 199F83CD2092739B00A8C423 /* Build configuration list for PBXProject "SwiftStaticFrameworkWithFAN1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 199F83C92092739B00A8C423;
+			productRefGroup = 199F83D42092739B00A8C423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199F83D22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1 */,
+				199F83DB2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests */,
+				199F83F0209273B700A8C423 /* SwiftStaticLibWithFAN1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199F83D12092739B00A8C423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199F83DA2092739B00A8C423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F11D40A0220C7367F3E054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftStaticLibWithFAN1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B481EBB912D4AB003C3A4B24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftStaticFrameworkWithFAN1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF03DCE25D62A03DA7CEEE80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftStaticFrameworkWithFAN1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199F83CE2092739B00A8C423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199F83FC209274D000A8C423 /* FWFAN2SwiftFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199F83D82092739B00A8C423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199F83E22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199F83ED209273B700A8C423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199F83FD209274D000A8C423 /* FWFAN2SwiftFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199F83DF2092739B00A8C423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199F83D22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1 */;
+			targetProxy = 199F83DE2092739B00A8C423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199F83E52092739B00A8C423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199F83E62092739B00A8C423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		199F83E82092739B00A8C423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1240055F9A11158FBE1F3CA5 /* Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftStaticFrameworkWithFAN1/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BB.SwiftStaticFrameworkWithFAN1;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199F83E92092739B00A8C423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D113B8F49EA54638409C1D7B /* Pods-SwiftStaticFrameworkWithFAN1.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftStaticFrameworkWithFAN1/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BB.SwiftStaticFrameworkWithFAN1;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		199F83EB2092739B00A8C423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D84D8E9F772A2CBEC82F6B /* Pods-SwiftStaticFrameworkWithFAN1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftStaticFrameworkWithFAN1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BB.SwiftStaticFrameworkWithFAN1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199F83EC2092739B00A8C423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BCE371598D47D494C0F80B /* Pods-SwiftStaticFrameworkWithFAN1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftStaticFrameworkWithFAN1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BB.SwiftStaticFrameworkWithFAN1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		199F83F8209273B700A8C423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1452F10D5E0C37CFC5AA9A58 /* Pods-SwiftStaticLibWithFAN1.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftStaticFrameworkWithFAN1/SwiftStaticLibWithFAN1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199F83F9209273B700A8C423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B341505D842B3B26EDCD0A0 /* Pods-SwiftStaticLibWithFAN1.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftStaticFrameworkWithFAN1/SwiftStaticLibWithFAN1-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199F83CD2092739B00A8C423 /* Build configuration list for PBXProject "SwiftStaticFrameworkWithFAN1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199F83E52092739B00A8C423 /* Debug */,
+				199F83E62092739B00A8C423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199F83E72092739B00A8C423 /* Build configuration list for PBXNativeTarget "SwiftStaticFrameworkWithFAN1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199F83E82092739B00A8C423 /* Debug */,
+				199F83E92092739B00A8C423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199F83EA2092739B00A8C423 /* Build configuration list for PBXNativeTarget "SwiftStaticFrameworkWithFAN1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199F83EB2092739B00A8C423 /* Debug */,
+				199F83EC2092739B00A8C423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199F83F7209273B700A8C423 /* Build configuration list for PBXNativeTarget "SwiftStaticLibWithFAN1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199F83F8209273B700A8C423 /* Debug */,
+				199F83F9209273B700A8C423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199F83CA2092739B00A8C423 /* Project object */;
+}
