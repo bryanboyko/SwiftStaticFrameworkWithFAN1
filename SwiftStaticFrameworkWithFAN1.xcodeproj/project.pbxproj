@@ -6,6 +6,20 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		199F84972097DF1000A8C423 /* SwiftStaticFrameworkWithFAN1Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 199F849A2097DF1000A8C423 /* Build configuration list for PBXAggregateTarget "SwiftStaticFrameworkWithFAN1Aggregate" */;
+			buildPhases = (
+				199F849E2097E04500A8C423 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = SwiftStaticFrameworkWithFAN1Aggregate;
+			productName = SwiftStaticFrameworkWith;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		199F83DD2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199F83D32092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework */; };
 		199F83E22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F83E12092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift */; };
@@ -247,6 +261,10 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
+					199F84972097DF1000A8C423 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 199F83CD2092739B00A8C423 /* Build configuration list for PBXProject "SwiftStaticFrameworkWithFAN1" */;
@@ -264,6 +282,7 @@
 				199F83D22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1 */,
 				199F83DB2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests */,
 				199F83F0209273B700A8C423 /* SwiftStaticLibWithFAN1 */,
+				199F84972097DF1000A8C423 /* SwiftStaticFrameworkWithFAN1Aggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -303,6 +322,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		199F849E2097E04500A8C423 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# Make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Next, work out if we're in SIM or DEVICE\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nBUILD_PRODUCTS=\"${SYMROOT}/../../../../Products\"\ncp -R \"${BUILD_PRODUCTS}/Debug-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_PRODUCTS}/Debug-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\nfi";
 		};
 		B481EBB912D4AB003C3A4B24 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -605,6 +637,22 @@
 			};
 			name = Release;
 		};
+		199F84982097DF1000A8C423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		199F84992097DF1000A8C423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -640,6 +688,15 @@
 			buildConfigurations = (
 				199F83F8209273B700A8C423 /* Debug */,
 				199F83F9209273B700A8C423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199F849A2097DF1000A8C423 /* Build configuration list for PBXAggregateTarget "SwiftStaticFrameworkWithFAN1Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199F84982097DF1000A8C423 /* Debug */,
+				199F84992097DF1000A8C423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
