@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		199D2AB320992CB30070519A /* SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199D2AB220992CB30070519A /* SwiftFile.swift */; };
 		199F83DD2092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199F83D32092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework */; };
 		199F83E22092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F83E12092739B00A8C423 /* SwiftStaticFrameworkWithFAN1Tests.swift */; };
 		199F83E42092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h in Headers */ = {isa = PBXBuildFile; fileRef = 199F83D62092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +57,7 @@
 /* Begin PBXFileReference section */
 		1240055F9A11158FBE1F3CA5 /* Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticFrameworkWithFAN1/Pods-SwiftStaticFrameworkWithFAN1.debug.xcconfig"; sourceTree = "<group>"; };
 		1452F10D5E0C37CFC5AA9A58 /* Pods-SwiftStaticLibWithFAN1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStaticLibWithFAN1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStaticLibWithFAN1/Pods-SwiftStaticLibWithFAN1.debug.xcconfig"; sourceTree = "<group>"; };
+		199D2AB220992CB30070519A /* SwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFile.swift; sourceTree = "<group>"; };
 		199F83D32092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStaticFrameworkWithFAN1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		199F83D62092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftStaticFrameworkWithFAN1.h; sourceTree = "<group>"; };
 		199F83D72092739B00A8C423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				199F83D62092739B00A8C423 /* SwiftStaticFrameworkWithFAN1.h */,
 				199F83FB209274D000A8C423 /* FWFAN2SwiftFile.swift */,
+				199D2AB220992CB30070519A /* SwiftFile.swift */,
 				199F83D72092739B00A8C423 /* Info.plist */,
 				199F83FA209274CF00A8C423 /* SwiftStaticLibWithFAN1-Bridging-Header.h */,
 			);
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				199F83FC209274D000A8C423 /* FWFAN2SwiftFile.swift in Sources */,
+				199D2AB320992CB30070519A /* SwiftFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +610,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -626,6 +631,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",

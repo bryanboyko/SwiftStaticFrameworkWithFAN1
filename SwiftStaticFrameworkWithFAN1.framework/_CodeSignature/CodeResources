@@ -16,21 +16,13 @@
 		<data>
 		6rDWuK9t68HMr51R213eHOrXRp8=
 		</data>
-		<key>Modules/SwiftStaticFrameworkWithFAN1.swiftmodule/i386.swiftdoc</key>
-		<data>
-		1IoCH8309Uf4/o8lBkmsm2at0a8=
-		</data>
-		<key>Modules/SwiftStaticFrameworkWithFAN1.swiftmodule/i386.swiftmodule</key>
-		<data>
-		e/ROEL1dR5G0giu1hkmgmlx9rrE=
-		</data>
 		<key>Modules/SwiftStaticFrameworkWithFAN1.swiftmodule/x86_64.swiftdoc</key>
 		<data>
 		fooyYlbAqVSDppvSvvNIqOOZi2E=
 		</data>
 		<key>Modules/SwiftStaticFrameworkWithFAN1.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		L5qDI1cw/WN1HlMDZfIYdAzilVE=
+		F48h+6dF7pzH3vBvKwIt4GR0OCQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,28 +53,6 @@
 			tSO9tF0P+fr2Qi6lR1l6xZkJyONvnNO9A/0Y9i+GW4c=
 			</data>
 		</dict>
-		<key>Modules/SwiftStaticFrameworkWithFAN1.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1IoCH8309Uf4/o8lBkmsm2at0a8=
-			</data>
-			<key>hash2</key>
-			<data>
-			scfyywj6GUeoKLgn+T2ANMufdqqbscZNwDlXkiCdbnY=
-			</data>
-		</dict>
-		<key>Modules/SwiftStaticFrameworkWithFAN1.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			e/ROEL1dR5G0giu1hkmgmlx9rrE=
-			</data>
-			<key>hash2</key>
-			<data>
-			VD6Qok/2ns1HIrBjftTv3n6LMmvq7hNl7t1saJQxnuE=
-			</data>
-		</dict>
 		<key>Modules/SwiftStaticFrameworkWithFAN1.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -98,11 +68,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L5qDI1cw/WN1HlMDZfIYdAzilVE=
+			F48h+6dF7pzH3vBvKwIt4GR0OCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			83h451wascYtCZQ6SthZ/wVpoGd8rpZlHWsrEhBQ2V8=
+			y/ppd8kChM7vxrH5FXDWfnnjRT82vfJ6LrfNxfGxCco=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
